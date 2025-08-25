@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Re:Lease Ukraine - Municipal Infrastructure Investment Platform |
+      EUR-Indexed Returns
+    </title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Re:Lease Ukraine enables institutional investment in Ukraine's reconstruction through innovative municipal leasing. Bypass FX restrictions with EUR-indexed returns. First private capital platform for Ukrainian municipalities."
+    />
+    <meta
+      name="keywords"
+      content="Ukraine reconstruction, municipal leasing, EUR investment Ukraine, institutional investment, infrastructure finance, FX restrictions bypass, Ukraine investment platform, municipal bonds alternative, European investment Ukraine, reconstruction finance"
+    />
+    <meta name="author" content="Re:Lease Ukraine" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.releaseukraine.org/" />
+    <meta
+      property="og:title"
+      content="Re:Lease Ukraine - Institutional Investment Platform for Ukraine's Reconstruction"
+    />
+    <meta
+      property="og:description"
+      content="Bypass FX restrictions and invest in Ukraine's reconstruction with predictable EUR-indexed returns through municipal leasing."
+    />
+    <meta
+      property="og:image"
+      content="https://www.releaseukraine.org/images/og-image.jpg"
+    />
+    <meta property="og:site_name" content="Re:Lease Ukraine" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.releaseukraine.org/" />
+    <meta
+      property="twitter:title"
+      content="Re:Lease Ukraine - Municipal Infrastructure Investment Platform"
+    />
+    <meta
+      property="twitter:description"
+      content="First private capital platform enabling institutional investment in Ukraine's reconstruction through municipal leasing."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.releaseukraine.org/images/twitter-card.jpg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.releaseukraine.org/" />
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "@id": "https://www.releaseukraine.org",
+        "name": "Re:Lease Ukraine",
+        "alternateName": "Release Ukraine",
+        "url": "https://www.releaseukraine.org",
+        "logo": "https://www.releaseukraine.org/logo.png",
+        "description": "Municipal leasing platform enabling institutional investment in Ukraine's reconstruction with EUR-indexed returns",
+        "founder": {
+          "@type": "Organization",
+          "name": "Re:Lease Ukraine"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Ukraine"
+        },
+        "serviceType": [
+          "Infrastructure Investment",
+          "Municipal Finance",
+          "Reconstruction Finance"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "investor relations",
+          "email": "invest@releaseukraine.org",
+          "availableLanguage": ["English", "Ukrainian"]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/release-ukraine",
+          "https://twitter.com/ReleaseUkraine"
+        ]
+      }
+    </script>
+
+    <!-- Additional Structured Data for Investment Service -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "InvestmentOrDeposit",
+        "name": "Municipal Infrastructure Leasing",
+        "description": "EUR-indexed returns through Ukrainian municipal leasing structures",
+        "provider": {
+          "@type": "FinancialService",
+          "name": "Re:Lease Ukraine"
+        },
+        "interestRate": "7-9% EUR IRR",
+        "currency": "EUR"
+      }
+    </script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #ffffff;
+        min-height: 100vh;
+      }
+
+      /* Import Google Font for better readability */
+      @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400&display=swap");
+
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      header {
+        background: #ffffff;
+        padding: 24px 0;
+        border-bottom: 1px solid #e5e5e5;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 28px;
+        font-weight: 300;
+        color: #1a1a1a;
+        text-decoration: none;
+        letter-spacing: -0.5px;
+      }
+
+      .logo img {
+        height: 60px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+      }
+
+      .nav-links a {
+        color: #4a4a4a;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 15px;
+        transition: color 0.2s;
+        letter-spacing: 0.2px;
+      }
+
+      .nav-links a:hover {
+        color: #005a9c;
+      }
+
+      .hero {
+        margin-top: 80px;
+        padding: 120px 0;
+        background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #e5e5e5, transparent);
+      }
+
+      .hero-content {
+        max-width: 900px;
+      }
+
+      .hero h1 {
+        font-size: 56px;
+        font-weight: 300;
+        margin-bottom: 24px;
+        line-height: 1.2;
+        letter-spacing: -1px;
+        color: #1a1a1a;
+      }
+
+      .hero h1 strong {
+        font-weight: 500;
+        color: #005a9c;
+      }
+
+      .hero p {
+        font-size: 20px;
+        color: #4a4a4a;
+        margin-bottom: 40px;
+        line-height: 1.7;
+        font-weight: 300;
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 16px 48px;
+        background: #005a9c;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        transition: background 0.2s;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+      }
+
+      .cta-button:hover {
+        background: #004a7c;
+      }
+
+      .section-label {
+        color: #005a9c;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      .mission {
+        padding: 100px 0;
+        background: #ffffff;
+      }
+
+      .mission h2 {
+        font-size: 42px;
+        margin-bottom: 48px;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .mission-content {
+        background: #f8f9fa;
+        padding: 48px;
+        border-left: 4px solid #005a9c;
+        line-height: 1.8;
+        font-size: 17px;
+        color: #3a3a3a;
+        font-weight: 300;
+      }
+
+      .mission-content p {
+        margin-bottom: 20px;
+      }
+
+      .mission-content p:last-child {
+        margin-bottom: 0;
+      }
+
+      .features {
+        padding: 100px 0;
+        background: #fafbfc;
+      }
+
+      .features h2 {
+        font-size: 42px;
+        margin-bottom: 16px;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .features-subtitle {
+        color: #4a4a4a;
+        font-size: 18px;
+        margin-bottom: 60px;
+        font-weight: 300;
+      }
+
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 32px;
+      }
+
+      .feature-card {
+        background: white;
+        padding: 40px;
+        border: 1px solid #e5e5e5;
+        transition: box-shadow 0.2s, transform 0.2s;
+        height: 100%;
+      }
+
+      .feature-card:hover {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        transform: translateY(-2px);
+      }
+
+      .feature-icon {
+        width: 48px;
+        height: 48px;
+        background: #005a9c;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .feature-card h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+        color: #1a1a1a;
+        font-weight: 400;
+      }
+
+      .feature-card p {
+        color: #4a4a4a;
+        line-height: 1.7;
+        font-weight: 300;
+      }
+
+      .how-it-works {
+        padding: 100px 0;
+        background: white;
+      }
+
+      .how-it-works h2 {
+        font-size: 42px;
+        margin-bottom: 60px;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .process-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 48px;
+        position: relative;
+      }
+
+      .process-steps::before {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 10%;
+        right: 10%;
+        height: 2px;
+        background: #005a9c;
+        z-index: 0;
+      }
+
+      .step {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+
+      .step-number {
+        width: 48px;
+        height: 48px;
+        background: white;
+        border: 2px solid #005a9c;
+        color: #005a9c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 24px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .step h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+        color: #1a1a1a;
+        font-weight: 400;
+      }
+
+      .step p {
+        color: #4a4a4a;
+        font-size: 15px;
+        line-height: 1.6;
+        font-weight: 300;
+      }
+
+      .impact {
+        padding: 100px 0;
+        background: #f8f9fa;
+      }
+
+      .impact-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+        align-items: center;
+      }
+
+      .impact h2 {
+        font-size: 42px;
+        margin-bottom: 24px;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .impact-text p {
+        color: #4a4a4a;
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 32px;
+        font-weight: 300;
+      }
+
+      .impact-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+
+      .stat-card {
+        background: white;
+        padding: 32px;
+        border-left: 3px solid #005a9c;
+      }
+
+      .stat-number {
+        font-size: 36px;
+        color: #005a9c;
+        font-weight: 300;
+        margin-bottom: 8px;
+      }
+
+      .stat-label {
+        color: #4a4a4a;
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      .advisory {
+        padding: 100px 0;
+        background: white;
+      }
+
+      .advisory h2 {
+        font-size: 42px;
+        margin-bottom: 16px;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .advisory-subtitle {
+        color: #4a4a4a;
+        font-size: 18px;
+        margin-bottom: 60px;
+        font-weight: 300;
+      }
+
+      .advisory-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 48px;
+        margin-top: 60px;
+      }
+
+      .advisor-card {
+        text-align: center;
+      }
+
+      .advisor-photo {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
+        margin: 0 auto 24px;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid #f0f0f0;
+      }
+
+      .advisor-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        /* Convert to grayscale and adjust contrast for uniform look */
+        filter: grayscale(100%) brightness(1.1) opacity(0.9);
+        transition: filter 0.3s ease;
+      }
+
+      /* Placeholder silhouette - only shows when no img tag is present */
+      .advisor-photo:not(:has(img))::before {
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 60px;
+        background: #999;
+        border-radius: 50%;
+      }
+
+      .advisor-photo:not(:has(img))::after {
+        content: "";
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 80px;
+        background: #999;
+        border-radius: 50% 50% 0 0;
+      }
+
+      .advisor-name {
+        font-size: 22px;
+        font-weight: 400;
+        color: #1a1a1a;
+        margin-bottom: 8px;
+      }
+
+      .advisor-role {
+        font-size: 14px;
+        color: #005a9c;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+      }
+
+      .advisor-bio {
+        font-size: 13px;
+        color: #5a5a5a;
+        line-height: 1.75;
+        font-weight: 400;
+        max-width: 340px;
+        margin: 0 auto;
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        letter-spacing: 0.01em;
+      }
+
+      .advisor-linkedin {
+        margin-top: 12px;
+      }
+
+      .advisor-linkedin a img {
+        width: 20px;
+        height: 20px;
+        transition: opacity 0.2s;
+      }
+
+      .advisor-linkedin a img:hover {
+        opacity: 0.7;
+      }
+
+      .contact {
+        padding: 100px 0;
+        background: #1a1a1a;
+        color: white;
+      }
+
+      .contact-content {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 80px;
+        align-items: center;
+      }
+
+      .contact h2 {
+        font-size: 42px;
+        margin-bottom: 24px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+      }
+
+      .contact p {
+        font-size: 18px;
+        margin-bottom: 32px;
+        opacity: 0.9;
+        line-height: 1.7;
+        font-weight: 300;
+      }
+
+      .contact-info {
+        text-align: left;
+      }
+
+      .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      .contact-item {
+        font-size: 16px;
+        line-height: 1.6;
+        font-style: normal;
+      }
+
+      .contact-item strong {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: 0.6;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .contact-item a {
+        font-size: 18px;
+        font-weight: 300;
+        transition: opacity 0.2s;
+      }
+
+      .contact-item a:hover {
+        opacity: 0.8;
+      }
+
+      .contact-button {
+        display: inline-block;
+        padding: 16px 48px;
+        background: white;
+        color: #1a1a1a;
+        text-decoration: none;
+        font-weight: 400;
+        transition: background 0.2s;
+        font-size: 16px;
+      }
+
+      .contact-button:hover {
+        background: #f0f0f0;
+      }
+
+      footer {
+        background: #0a0a0a;
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      footer p {
+        opacity: 0.7;
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      @media (max-width: 968px) {
+        .hero h1 {
+          font-size: 42px;
+        }
+
+        .impact-content,
+        .contact-content {
+          grid-template-columns: 1fr;
+          gap: 48px;
+        }
+
+        .contact-info {
+          text-align: left;
+        }
+
+        .nav-links {
+          display: none;
+        }
+
+        .feature-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .process-steps::before {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container" role="navigation" aria-label="Main navigation">
+        <a href="/" class="logo" aria-label="Re:Lease Ukraine Home"
+          ><img src="img/logo.png" alt="Re:Lease Ukraine" /></a
+        >
+        <ul class="nav-links">
+          <li><a href="#mission" aria-label="Our Mission">Mission</a></li>
+          <li><a href="#features" aria-label="Our Solutions">Solutions</a></li>
+          <li><a href="#how" aria-label="How It Works">Process</a></li>
+          <li><a href="#impact" aria-label="Our Impact">Impact</a></li>
+          <li><a href="#advisory" aria-label="Advisory Board">Advisory</a></li>
+          <li><a href="#contact" aria-label="Contact Us">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>
+              Unlocking <strong>institutional capital</strong> for Ukraine's
+              reconstruction
+            </h1>
+            <p>
+              A pioneering municipal leasing platform that bypasses FX
+              restrictions to enable predictable, EUR-indexed returns for
+              infrastructure investment
+            </p>
+            <a
+              href="#contact"
+              class="cta-button"
+              aria-label="Start investing in Ukraine reconstruction"
+              >START INVESTING</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="mission" class="mission">
+        <div class="container">
+          <div class="section-label">Our Mission</div>
+          <h2>Bridging capital and reconstruction</h2>
+          <article class="mission-content">
+            <p>
+              <strong>The Challenge:</strong> While international capital is
+              available for Ukraine's reconstruction, structural FX and capital
+              controls — particularly the NBU's restrictions on dividend
+              remittance in EUR — prevent institutional and private investors
+              from deploying capital at scale.
+            </p>
+
+            <p>
+              <strong>Our Solution:</strong> We propose a platform that bypasses
+              these restrictions via municipal leasing, enabling predictable,
+              EUR-indexed returns without equity remittance.
+            </p>
+
+            <p>
+              <strong>The Innovation:</strong> This is Ukraine's first
+              private-capital-driven municipal leasing platform, designed to
+              complement donor flows while being structurally independent. It
+              enables scale, predictable returns, and revenue-backed
+              infrastructure development — at a time when municipalities cannot
+              afford upfront CAPEX but must upgrade public services fast.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-label">Solutions</div>
+          <h2>Structured for success</h2>
+          <p class="features-subtitle">
+            Our platform provides comprehensive solutions for both investors and
+            municipalities
+          </p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">€</div>
+              <h3>EUR-Indexed Returns</h3>
+              <p>
+                Stable, predictable returns indexed to EUR, effectively
+                bypassing traditional FX restrictions while providing currency
+                stability for international investors.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">↗</div>
+              <h3>Rapid Deployment</h3>
+              <p>
+                Enable municipalities to upgrade critical infrastructure
+                immediately without upfront capital expenditure, accelerating
+                reconstruction timelines.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">◆</div>
+              <h3>Revenue Security</h3>
+              <p>
+                Infrastructure investments backed by municipal revenue streams,
+                creating sustainable and secure investment structures for
+                institutional capital.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">■</div>
+              <h3>Institutional Scale</h3>
+              <p>
+                First platform designed to accommodate institutional capital at
+                scale, meeting the massive infrastructure needs of Ukraine's
+                reconstruction.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">+</div>
+              <h3>Donor Complement</h3>
+              <p>
+                Works alongside international donor flows while maintaining
+                structural independence, maximizing total reconstruction
+                capacity.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">✓</div>
+              <h3>Full Compliance</h3>
+              <p>
+                Fully compliant structure navigating existing regulatory
+                restrictions while enabling seamless international investment
+                flows.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="how-it-works">
+        <div class="container">
+          <div class="section-label">Process</div>
+          <h2>How municipal leasing works in Ukraine</h2>
+          <div class="process-steps">
+            <div class="step">
+              <div class="step-number" aria-label="Step 1">1</div>
+              <h3>Municipal Application</h3>
+              <p>
+                Ukrainian municipalities identify critical infrastructure needs
+                and apply for leasing arrangements
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number" aria-label="Step 2">2</div>
+              <h3>Deal Structuring</h3>
+              <p>
+                Platform structures deals with EUR-indexed returns and municipal
+                revenue backing
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number" aria-label="Step 3">3</div>
+              <h3>Capital Investment</h3>
+              <p>
+                Institutional investors deploy capital through secure leasing
+                structures
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number" aria-label="Step 4">4</div>
+              <h3>Infrastructure Delivery</h3>
+              <p>
+                Infrastructure projects executed and municipal services upgraded
+                rapidly
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="impact" class="impact">
+        <div class="container">
+          <div class="impact-content">
+            <div class="impact-text">
+              <div class="section-label">Impact</div>
+              <h2>
+                Rebuilding Ukraine's communities through innovative finance
+              </h2>
+              <p>
+                Our platform addresses Ukraine's critical infrastructure gap by
+                channeling institutional capital directly to municipal projects.
+                We're not just financing reconstruction — we're creating a
+                sustainable model for long-term development.
+              </p>
+              <p>
+                By bypassing traditional restrictions and creating predictable
+                return structures, we're unlocking billions in potential
+                investment that would otherwise remain inaccessible to Ukraine's
+                municipalities.
+              </p>
+            </div>
+            <div class="impact-stats">
+              <div class="stat-card">
+                <div class="stat-number">€500M+</div>
+                <div class="stat-label">Pipeline capacity</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Ukrainian municipalities ready</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">7-9%</div>
+                <div class="stat-label">Target IRR (EUR)</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">2025</div>
+                <div class="stat-label">Platform launch</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="advisory" class="advisory">
+        <div class="container">
+          <div class="section-label">Leadership</div>
+          <h2>Advisory Board</h2>
+          <div class="advisory-grid">
+            <article class="advisor-card">
+              <div
+                class="advisor-photo"
+                aria-label="Portrait of Imre Heiskanen"
+              >
+                <img src="img/heiskanen.jpeg" alt="Imre Heiskanen" />
+              </div>
+              <h3 class="advisor-name">
+                Imre Heiskanen
+                <a
+                  href="https://www.linkedin.com/in/imre-heiskanen/"
+                  target="_blank"
+                  aria-label="LinkedIn profile of Imre Heiskanen"
+                >
+                  <i class="fab fa-linkedin fa-lg" style="color: #0a66c2"></i>
+                </a>
+              </h3>
+              <div class="advisor-role">Founder & Financial Architect</div>
+              <p class="advisor-bio">
+                Mr. Heiskanen is a senior finance executive with over 15 years
+                of multinational corporate leadership experience across Northern
+                and Eastern Europe. Formerly Regional Finance Director at Smith
+                & Nephew and Finance Director at Neoen S.A., he has led
+                cross-border restructurings, market entries, and multi-country
+                capital projects. Drawing on expertise in financial structuring,
+                infrastructure finance, and operational turnarounds, Imre is
+                pioneering Ukraine's first private-capital-driven municipal
+                leasing platform. Fluent in five languages, he combines
+                international leadership with on-the-ground insight to bridge
+                global capital with local infrastructure needs.
+              </p>
+            </article>
+            <article class="advisor-card">
+              <div class="advisor-photo" aria-label="Portrait of Ian Redding">
+                <img src="img/redding.jpeg" alt="Ian Redding" />
+              </div>
+              <h3 class="advisor-name">Ian Redding                <a
+                  href="https://www.linkedin.com/in/ian-at-swire/"
+                  target="_blank"
+                  aria-label="LinkedIn profile of Imre Heiskanen"
+                >
+                  <i class="fab fa-linkedin fa-lg" style="color: #0a66c2"></i>
+                </a></h3>
+              <div class="advisor-role">Operational Strategy</div>
+              <p class="advisor-bio">
+                Mr. Redding is the founder of Swire Consulting Group,
+                established in 2022 after more than a decade in international
+                consulting. He specializes in business analysis and operational
+                excellence, with a track record of delivering over $500 million
+                in measurable benefits across finance, telecommunications,
+                industry, and mining. For Re:Lease Ukraine, Ian brings strategic
+                insight into scaling complex, multi-stakeholder projects and
+                ensuring operational robustness from pilot to nationwide
+                rollout. Based in Bath, UK, he holds an MA in Natural Sciences
+                from the University of Cambridge.
+              </p>
+            </article>
+            <article class="advisor-card">
+              <div class="advisor-photo" aria-label="Portrait of Roman Blazhko">
+                <img src="img/blazhko.jpeg" alt="Roman Blazhko" />
+              </div>
+              <h3 class="advisor-name">Roman Blazhko                <a
+                  href="https://www.linkedin.com/in/roman-blazhko/"
+                  target="_blank"
+                  aria-label="LinkedIn profile of Imre Heiskanen"
+                >
+                  <i class="fab fa-linkedin fa-lg" style="color: #0a66c2"></i>
+                </a></h3>
+              <div class="advisor-role">Legal & Regulatory</div>
+              <p class="advisor-bio">
+                Mr. Blazhko is a seasoned legal professional with over 20 years
+                of experience advising Ukrainian and international clients on
+                complex legal and tax matters. His career spans leading
+                Ukrainian law firms and senior in-house roles, providing him
+                with a unique perspective that blends high-level advisory
+                expertise with practical business insight. Specializing in tax
+                law, Roman is recognized as a prominent expert and currently
+                serves as Deputy Head of the Tax and Customs Committee of the
+                Ukrainian Bar Association. He delivers strategic, commercially
+                grounded solutions in challenging legal environments.
+              </p>
+            </article>
+            <article class="advisor-card">
+              <div class="advisor-photo" aria-label="Portrait of Jukka Laikari">
+                <img src="img/laikari.jpeg" alt="Jukka Laikari" />
+              </div>
+              <h3 class="advisor-name">Jukka Laikari                <a
+                  href="https://www.linkedin.com/in/jukkalaikari/"
+                  target="_blank"
+                  aria-label="LinkedIn profile of Imre Heiskanen"
+                >
+                  <i class="fab fa-linkedin fa-lg" style="color: #0a66c2"></i>
+                </a></h3>
+              <div class="advisor-role">Marketing & Sales Strategy</div>
+              <p class="advisor-bio">
+                Mr. Laikari is the cofounder of the largest private
+                reconstruction consultancy in the Nordic Markets, Rebuild
+                Ukraine Office, and cofounder of defence industry consultancy
+                Defence Ukraine. Based in Lviv since 2009, he has extensive
+                experience of the Ukrainian market including a wide professional
+                network. For Re:Lease Ukraine, Jukka brings strategic insight
+                into launching and scaling new operations in Ukraine and on
+                Nordic markets, leveraging his deep understanding of both
+                regions' business landscapes and reconstruction opportunities.
+              </p>
+            </article>
+            <article class="advisor-card">
+              <div
+                class="advisor-photo"
+                aria-label="Portrait of Marcus Abrahamson"
+              >
+                <img src="img/abrahamson.jpeg" alt="Marcus Abrahamson" />
+              </div>
+              <h3 class="advisor-name">Marcus Abrahamson                <a
+                  href="https://www.linkedin.com/in/marcusabrahamson/"
+                  target="_blank"
+                  aria-label="LinkedIn profile of Imre Heiskanen"
+                >
+                  <i class="fab fa-linkedin fa-lg" style="color: #0a66c2"></i>
+                </a></h3>
+              <div class="advisor-role">Technology</div>
+              <p class="advisor-bio">
+                Mr. Abrahamson is an IT consultant with over 15 years of
+                experience delivering enterprise solutions across Europe, Asia,
+                and the United States. He specializes in architecting
+                integration platforms for government agencies, state-owned
+                enterprises, and multinational corporations across fintech,
+                healthcare, and manufacturing sectors. For Re:Lease Ukraine, he
+                provides strategic guidance on developing digital infrastructure
+                to connect global institutional capital with Ukrainian municipal
+                projects, ensuring secure data exchange between international
+                partners.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-content">
+            <div>
+              <h2>Ready to invest in Ukraine's future?</h2>
+              <p>
+                Join institutional investors and municipalities building
+                tomorrow's Ukraine through innovative financial structures.
+              </p>
+            </div>
+            <address class="contact-info">
+              <div class="contact-details">
+                <div class="contact-item">
+                  <strong>Email</strong><br />
+                  <a
+                    href="mailto:contact@releaseukraine.org"
+                    style="color: inherit; text-decoration: none"
+                    >contact@releaseukraine.org</a
+                  >
+                </div>
+                <div class="contact-item">
+                  <strong>Phone</strong><br />
+                  <a
+                    href="tel:+380441234567"
+                    style="color: inherit; text-decoration: none"
+                    >+380 93 262 80 96</a
+                  >
+                </div>
+              </div>
+            </address>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="container">
+        <p>
+          &copy; 2025 Re:Lease Ukraine. Progress through partnership. |
+          <a href="/privacy" style="color: inherit; opacity: 0.7"
+            >Privacy Policy</a
+          >
+          |
+          <a href="/terms" style="color: inherit; opacity: 0.7"
+            >Terms of Service</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
